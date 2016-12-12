@@ -6,6 +6,9 @@ This is a [Jekyll](http://jekyllrb.com/) based site, with pages written in HTML 
 
 ## Editors
 
+https://gist.github.com/cobyism/4730490
+git subtree push --prefix _site origin gh-pages
+
 Please see the [Contribute](http://opendatahandbook.org/contribute/) section of the site for further instructions.
 
 ## Developers
