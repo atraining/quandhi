@@ -2148,13 +2148,9 @@ pre,
       border-radius: 4.5px;
       border: 1px solid #296B73; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 53.75em) {
   .resources > section > ul {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 94.41059% !important;
-    margin-left: 17.05961%; } }
+    margin-left: 0%; } }
 .pre-header {
   border-bottom: 1px solid #0F2D40;
   display: inline-block;
@@ -3135,13 +3131,14 @@ html.mm-background .mm-page,
     overflow: hidden;
     text-align: center; }
     .home .banner .wrapper {
-      padding: 115px 1.5em 115px 1.5em;
+      padding: 20px 1.5em 115px 1.5em;
       max-height: 333px; }
       .home .banner .wrapper h1 {
         text-transform: uppercase;
         font-size: 28px;
         letter-spacing: 2px;
         margin-bottom: 10px;
+        position: absolute;
         left: -999px; }
         @media screen and (min-width: 40em) {
           .home .banner .wrapper h1 {
@@ -3179,7 +3176,6 @@ html.mm-background .mm-page,
         display: block;
         margin-right: 2.35765%;
         width: 31.76157%;
-        width: 30%;
         position: relative;
         padding-top: 3em; }
         .home > .wrapper > div:last-child {
