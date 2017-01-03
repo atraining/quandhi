@@ -2082,8 +2082,30 @@ body {
 h1, h2, h3, p {
   margin: 0; }
 
+.home .banner .wrapper h1 {
+  position: inherit !important;
+  color: #3E8C84; }
+
+@media screen and (min-width: 40em) {
+  .resources > section {
+    margin-left: 200px; }
+
+  .resources > section > ul {
+    float: left;
+    display: block;
+    margin-right: 12.35765%;
+    width: 100%;
+    margin-left: 1.05961%; }
+
+  .resources > section > ul li a {
+    padding-top: 120% !important;
+    position: relative; } }
+#ok-panel {
+  border-bottom: solid 4px #296B73; }
+
+#ok-panel-wrapper,
 .ok-ribbon {
-  background-color: #296B73; }
+  background-color: #fff; }
 
 hr {
   border-bottom: 1px solid #296B73;
